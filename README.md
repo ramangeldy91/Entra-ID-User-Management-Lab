@@ -1,4 +1,4 @@
-﻿# Active Directory & User Account Management Lab
+﻿# Entra-ID-User-Management-Lab
 
 
 
