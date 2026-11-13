@@ -22,19 +22,19 @@ This workflow covers:
 
 
 
-\- Department and role change initiation
+- Department and role change initiation
 
-\- Access requirements review
+- Access requirements review
 
-\- Manager approval
+- Manager approval
 
-\- Access provisioning
+- Access provisioning
 
-\- Removal of outdated access
+- Removal of outdated access
 
-\- Access validation
+- Access validation
 
-\- Documentation and closure
+- Documentation and closure
 
 
 
@@ -78,17 +78,17 @@ The request should include:
 
 
 
-\- Employee name and unique identifier
+- Employee name and unique identifier
 
-\- Current department and job role
+- Current department and job role
 
-\- New department and job role
+- New department and job role
 
-\- Effective date of the change
+- Effective date of the change
 
-\- New manager
+- New manager
 
-\- Required access review
+- Required access review
 
 
 
@@ -104,11 +104,11 @@ Existing access must be reviewed individually and classified as:
 
 
 
-\- Retain - access remains necessary for the new role
+- Retain - access remains necessary for the new role
 
-\- Modify - access must be changed
+- Modify - access must be changed
 
-\- Revoke - access is no longer required
+- Revoke - access is no longer required
 
 
 
@@ -140,13 +140,13 @@ The IAM / IT Administrator:
 
 
 
-1\. Reviews the approved access request.
+1. Reviews the approved access request.
 
-2\. Identifies the appropriate security groups.
+2. Identifies the appropriate security groups.
 
-3\. Adds the employee to the required groups.
+3. Adds the employee to the required groups.
 
-4\. Verifies the updated group membership.
+4. Verifies the updated group membership.
 
 
 
@@ -162,11 +162,11 @@ The IAM / IT Administrator:
 
 
 
-1\. Identifies groups and permissions no longer required.
+1. Identifies groups and permissions no longer required.
 
-2\. Removes the employee from outdated security groups.
+2. Removes the employee from outdated security groups.
 
-3\. Verifies that obsolete memberships have been removed.
+3. Verifies that obsolete memberships have been removed.
 
 
 
@@ -182,13 +182,13 @@ The administrator verifies:
 
 
 
-\- Required new group memberships are present.
+- Required new group memberships are present.
 
-\- Outdated group memberships have been removed.
+- Outdated group memberships have been removed.
 
-\- No unnecessary access remains.
+- No unnecessary access remains.
 
-\- Actual access is consistent with the approved request.
+- Actual access is consistent with the approved request.
 
 
 
@@ -204,21 +204,21 @@ The administrator records:
 
 
 
-\- Request or ticket reference
+- Request or ticket reference
 
-\- Employee identifier
+- Employee identifier
 
-\- Approved access changes
+- Approved access changes
 
-\- Groups added and removed
+- Groups added and removed
 
-\- Administrator who performed the changes
+- Administrator who performed the changes
 
-\- Execution date and time
+- Execution date and time
 
-\- Validation results
+- Validation results
 
-\- Evidence references
+- Evidence references
 
 
 
@@ -238,25 +238,25 @@ An employee transfers from IT Support to Finance.
 
 
 
-\*\*Test identity:\*\* IAM Lab User 01
+**Test identity:** IAM Lab User 01
 
-\*\*User identifier:\*\* LAB-USER-001
-
-
-
-\*\*Initial group membership:\*\*
+**User identifier:** LAB-USER-001
 
 
 
-\- GRP-IT-Support-Basic
+**Initial group membership:**
 
 
 
-\*\*Target group membership:\*\*
+- GRP-IT-Support-Basic
 
 
 
-\- GRP-Finance-Basic
+**Target group membership:**
+
+
+
+- GRP-Finance-Basic
 
 
 
@@ -264,15 +264,15 @@ An employee transfers from IT Support to Finance.
 
 
 
-1\. Created the `GRP-Finance-Basic` security group.
+1. Created the `GRP-Finance-Basic` security group.
 
-2\. Added `IAM Lab User 01` to `GRP-Finance-Basic`.
+2. Added `IAM Lab User 01` to `GRP-Finance-Basic`.
 
-3\. Verified that the user temporarily belonged to both IT Support and Finance groups.
+3. Verified that the user temporarily belonged to both IT Support and Finance groups.
 
-4\. Removed the user from `GRP-IT-Support-Basic`.
+4. Removed the user from `GRP-IT-Support-Basic`.
 
-5\. Verified the final group membership.
+5. Verified the final group membership.
 
 
 
@@ -292,7 +292,7 @@ An employee transfers from IT Support to Finance.
 
 
 
-\*\*Result: PASS\*\*
+**Result: PASS**
 
 
 
@@ -312,15 +312,15 @@ The following activities were not performed as part of this test:
 
 
 
-\- Actual HR request submission
+- Actual HR request submission
 
-\- Real manager approval
+- Real manager approval
 
-\- Resource-owner approval
+- Resource-owner approval
 
-\- Assignment of application or resource permissions
+- Assignment of application or resource permissions
 
-\- Verification of access to actual Finance applications
+- Verification of access to actual Finance applications
 
 
 
@@ -332,19 +332,19 @@ These activities are included in the designed workflow but are not claimed as co
 
 
 
-\- Least Privilege
+- Least Privilege
 
-\- Role-Based Access Control (RBAC)
+- Role-Based Access Control (RBAC)
 
-\- Separation of Duties
+- Separation of Duties
 
-\- Approval-based access provisioning (documented workflow; approval not tested in the lab)
+- Approval-based access provisioning (documented workflow; approval not tested in the lab)
 
-\- Access revocation
+- Access revocation
 
-\- Access validation
+- Access validation
 
-\- Auditability and documentation
+- Auditability and documentation
 
 
 
@@ -360,11 +360,11 @@ Evidence is stored in:
 
 
 
-\- `01-Mover-Finance-Group-Membership.png`
+- `01-Mover-Finance-Group-Membership.png`
 
-\- `02-Mover-IT-Support-Group-Membership.png`
+- `02-Mover-IT-Support-Group-Membership.png`
 
-\- `Evidence-Report.md`
+- `Evidence-Report.md`
 
 
 
@@ -376,16 +376,16 @@ The Mover process is considered complete when:
 
 
 
-\- The department or role change is documented.
+- The department or role change is documented.
 
-\- Required access is approved.
+- Required access is approved.
 
-\- New access is provisioned.
+- New access is provisioned.
 
-\- Outdated access is revoked.
+- Outdated access is revoked.
 
-\- Final access is validated.
+- Final access is validated.
 
-\- Evidence and execution details are documented.
+- Evidence and execution details are documented.
 
 
