@@ -132,7 +132,7 @@ The following operations were performed and verified in Microsoft Entra ID:
 
 \- Access request provisioning.
 
-\- Audit log verification of administrative changes.
+\- Review of relevant audit log events for administrative changes.
 
 \- Inspection of available sign-in activity and account status.
 
