@@ -6,7 +6,7 @@
 
 
 
-**Project:** Active Directory & User Management Lab
+**Project:** Entra ID User Management Lab
 
 **Platform:** Microsoft Entra ID
 
