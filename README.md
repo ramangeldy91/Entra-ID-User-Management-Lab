@@ -1,4 +1,4 @@
-﻿# Entra-ID-User-Management-Lab
+﻿# Entra ID User Management Lab
 
 
 
@@ -117,7 +117,7 @@ Evidence is organized by scenario in the [evidence](evidence/) directory.
 
 
 ```text
-Active-Directory-User-Management-Lab/
+Entra-ID-User-Management-Lab/
 |
 +-- documentation/
 |   +-- Lab-Environment.md
@@ -132,7 +132,6 @@ Active-Directory-User-Management-Lab/
 |
 +-- scenarios/
 |   +-- AR-001-Access-Request/
-|   +-- Mover-Department-Transfer/
 |
 +-- workflows/
     +-- Account-Lockout-Troubleshooting-Workflow.md
