@@ -226,7 +226,7 @@ Some applications maintain their own sessions or access tokens. Application-spec
 
 
 
-**Expected result:** The user's access assignments are removed or disabled, and session revocation is recorded.
+**Expected result:** The user's access assignments are removed or disabled, and session revocation is performed and documented. Relevant audit events are reviewed where available.
 
 
 
