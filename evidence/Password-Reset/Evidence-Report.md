@@ -1,40 +1,40 @@
-\# Password Reset - Evidence Report
+# Password Reset - Evidence Report
 
 
 
-\## 1. Overview
+## 1. Overview
 
 
 
-\*\*Scenario:\*\* Password Reset
+**Scenario:** Password Reset
 
-\*\*Test User:\*\* Password Reset Test User 01
+**Test User:** Password Reset Test User 01
 
-\*\*Employee ID:\*\* LAB-USER-004
+**Employee ID:** LAB-USER-004
 
-\*\*Environment:\*\* Microsoft Entra ID (cloud-only test tenant)
+**Environment:** Microsoft Entra ID (cloud-only test tenant)
 
-\*\*Result:\*\* Successful
-
-
-
-\## 2. Actions Performed
+**Result:** Successful
 
 
 
-1\. Verified the test user's account before the password reset.
-
-2\. Initiated the password reset through Microsoft Entra Admin Center.
-
-3\. Confirmed that the portal generated a temporary password.
-
-4\. Confirmed that the user must change the password at the next sign-in.
-
-5\. Reviewed the audit logs and verified the password reset operation status.
+## 2. Actions Performed
 
 
 
-\## 3. Evidence Files
+1. Verified the test user's account before the password reset.
+
+2. Initiated the password reset through Microsoft Entra Admin Center.
+
+3. Confirmed that the portal generated a temporary password.
+
+4. Confirmed that the user must change the password at the next sign-in.
+
+5. Reviewed the audit logs and verified the password reset operation status.
+
+
+
+## 3. Evidence Files
 
 
 
@@ -48,7 +48,7 @@
 
 
 
-\## 4. Validation Results
+## 4. Validation Results
 
 
 
@@ -68,23 +68,23 @@
 
 
 
-\## 5. Limitations
+## 5. Limitations
 
 
 
-\- The test was performed in a cloud-only Microsoft Entra ID environment.
+- The test was performed in a cloud-only Microsoft Entra ID environment.
 
-\- End-user authentication with the temporary password was not tested.
+- End-user authentication with the temporary password was not tested.
 
-\- The subsequent password change was not tested.
+- The subsequent password change was not tested.
 
-\- Identity verification and approval were documented as standard operational requirements but were not executed in this lab.
+- Identity verification and approval were documented as standard operational requirements but were not executed in this lab.
 
-\- No production ticketing or secure password delivery system was integrated.
+- No production ticketing or secure password delivery system was integrated.
 
 
 
-\## 6. Conclusion
+## 6. Conclusion
 
 
 
