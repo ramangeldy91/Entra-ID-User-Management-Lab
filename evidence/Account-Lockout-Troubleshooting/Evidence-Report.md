@@ -1,24 +1,24 @@
-\# Account Lockout Troubleshooting - Evidence Report
+# Account Lockout Troubleshooting - Evidence Report
 
 
 
-\## 1. Overview
+## 1. Overview
 
 
 
-\*\*Scenario:\*\* Account Lockout Troubleshooting
+**Scenario:** Account Lockout Troubleshooting
 
-\*\*Environment:\*\* Microsoft Entra ID (cloud-only test tenant)
+**Environment:** Microsoft Entra ID (cloud-only test tenant)
 
-\*\*Test Account:\*\* Password Reset Test User 01
+**Test Account:** Password Reset Test User 01
 
-\*\*Employee ID:\*\* LAB-USER-004
+**Employee ID:** LAB-USER-004
 
-\*\*Investigation Result:\*\* No failed sign-in events identified
+**Investigation Result:** No failed sign-in events identified
 
 
 
-\## 2. Investigation Performed
+## 2. Investigation Performed
 
 
 
@@ -26,23 +26,23 @@ The following checks were performed in Microsoft Entra Admin Center:
 
 
 
-1\. Opened the test user's Sign-in Logs.
+1. Opened the test user's Sign-in Logs.
 
-2\. Checked the general tenant Sign-in Logs.
+2. Checked the general tenant Sign-in Logs.
 
-3\. Inspected an available successful interactive administrative sign-in event.
+3. Inspected an available successful interactive administrative sign-in event.
 
-4\. Applied the `Failure` status filter.
+4. Applied the `Failure` status filter.
 
-5\. Expanded the investigation period to the last 30 days.
+5. Expanded the investigation period to the last 30 days.
 
-6\. Checked the Password Protection configuration page.
+6. Checked the Password Protection configuration page.
 
-7\. Rechecked the test account's enabled state.
+7. Rechecked the test account's enabled state.
 
 
 
-\## 3. Observations
+## 3. Observations
 
 
 
@@ -74,21 +74,21 @@ This event belonged to the administrative account, not the test account.
 
 
 
-\## 4. Safety Measures
+## 4. Safety Measures
 
 
 
-\- No repeated incorrect-password attempts were generated.
+- No repeated incorrect-password attempts were generated.
 
-\- No intentional account lockout was triggered.
+- No intentional account lockout was triggered.
 
-\- No security policies were modified.
+- No security policies were modified.
 
-\- The test account remained enabled.
+- The test account remained enabled.
 
 
 
-\## 5. Validation Results
+## 5. Validation Results
 
 
 
@@ -110,23 +110,23 @@ This event belonged to the administrative account, not the test account.
 
 
 
-\## 6. Limitations
+## 6. Limitations
 
 
 
-\- No failed sign-in event was available for root-cause analysis.
+- No failed sign-in event was available for root-cause analysis.
 
-\- No actual Microsoft Entra Smart Lockout event was observed.
+- No actual Microsoft Entra Smart Lockout event was observed.
 
-\- Smart Lockout configuration values were not independently verified.
+- Smart Lockout configuration values were not independently verified.
 
-\- Premium licensing restricted access to the requested Password Protection configuration.
+- Premium licensing restricted access to the requested Password Protection configuration.
 
-\- No on-premises Domain Controller was available.
+- No on-premises Domain Controller was available.
 
-\- Event ID 4740 and AD DS account lockout properties were not tested against a live directory.
+- Event ID 4740 and AD DS account lockout properties were not tested against a live directory.
 
-\- No end-user sign-in recovery test was performed.
+- No end-user sign-in recovery test was performed.
 
 
 
@@ -134,7 +134,7 @@ The on-premises AD DS troubleshooting procedure is documented in the workflow bu
 
 
 
-\## 7. Conclusion
+## 7. Conclusion
 
 
 
