@@ -1,8 +1,8 @@
-\# Lab Environment
+# Lab Environment
 
 
 
-\## 1. Overview
+## 1. Overview
 
 
 
@@ -14,7 +14,7 @@ All practical identity administration activities were carried out through the Mi
 
 
 
-\*\*Environment Details:\*\*
+**Environment Details:**
 
 
 
@@ -40,7 +40,7 @@ All practical identity administration activities were carried out through the Mi
 
 
 
-\## 2. Administrative Tools
+## 2. Administrative Tools
 
 
 
@@ -48,21 +48,21 @@ The following interface and capabilities were used during the practical exercise
 
 
 
-\- Microsoft Entra Admin Center
+- Microsoft Entra Admin Center
 
-\- User account management
+- User account management
 
-\- Security group management
+- Security group management
 
-\- Group membership administration
+- Group membership administration
 
-\- Account enablement and disablement
+- Account enablement and disablement
 
-\- Password reset operations
+- Password reset operations
 
-\- Sign-in log inspection
+- Sign-in log inspection
 
-\- Audit log investigation
+- Audit log investigation
 
 
 
@@ -70,7 +70,7 @@ All administrative changes were performed through the Entra Admin Center.
 
 
 
-\## 3. Test Identities and Groups
+## 3. Test Identities and Groups
 
 
 
@@ -78,7 +78,7 @@ The lab used dedicated test identities and security groups to demonstrate identi
 
 
 
-\*\*Test identities:\*\*
+**Test identities:**
 
 
 
@@ -96,13 +96,13 @@ The lab used dedicated test identities and security groups to demonstrate identi
 
 
 
-\*\*Security groups:\*\*
+**Security groups:**
 
 
 
-\- `GRP-IT-Support-Basic`
+- `GRP-IT-Support-Basic`
 
-\- `GRP-Finance-Basic`
+- `GRP-Finance-Basic`
 
 
 
@@ -110,7 +110,7 @@ These identities and groups were created exclusively for laboratory exercises.
 
 
 
-\## 4. Practical Environment Scope
+## 4. Practical Environment Scope
 
 
 
@@ -118,23 +118,23 @@ The following operations were performed and verified in Microsoft Entra ID:
 
 
 
-\- User creation and attribute configuration.
+- User creation and attribute configuration.
 
-\- Security group membership assignment.
+- Security group membership assignment.
 
-\- Department transfer through group membership changes.
+- Department transfer through group membership changes.
 
-\- Account disablement and group access removal.
+- Account disablement and group access removal.
 
-\- Sign-in session revocation.
+- Sign-in session revocation.
 
-\- Administrative password reset.
+- Administrative password reset.
 
-\- Access request provisioning.
+- Access request provisioning.
 
-\- Review of relevant audit log events for administrative changes.
+- Review of relevant audit log events for administrative changes.
 
-\- Inspection of available sign-in activity and account status.
+- Inspection of available sign-in activity and account status.
 
 
 
@@ -142,7 +142,7 @@ Evidence screenshots and individual reports are maintained in the `evidence/` di
 
 
 
-\## 5. Environment Limitations
+## 5. Environment Limitations
 
 
 
@@ -150,19 +150,19 @@ The laboratory does not include:
 
 
 
-\- An on-premises Active Directory Domain Services environment.
+- An on-premises Active Directory Domain Services environment.
 
-\- A Windows Server Domain Controller.
+- A Windows Server Domain Controller.
 
-\- Hybrid identity synchronization through Microsoft Entra Connect.
+- Hybrid identity synchronization through Microsoft Entra Connect.
 
-\- Microsoft Graph PowerShell automation.
+- Microsoft Graph PowerShell automation.
 
-\- Azure resource administration through Azure Portal.
+- Azure resource administration through Azure Portal.
 
-\- A production HR information system or automated approval platform.
+- A production HR information system or automated approval platform.
 
-\- Production application integrations for effective access testing.
+- Production application integrations for effective access testing.
 
 
 
@@ -178,7 +178,7 @@ Group membership verification confirms directory-level assignment only. It does 
 
 
 
-\## 6. Security and Testing Principles
+## 6. Security and Testing Principles
 
 
 
@@ -186,21 +186,21 @@ The lab follows these principles:
 
 
 
-\- Use dedicated test identities instead of personal or production accounts.
+- Use dedicated test identities instead of personal or production accounts.
 
-\- Apply least-privilege access principles.
+- Apply least-privilege access principles.
 
-\- Verify administrative changes through available audit records.
+- Verify administrative changes through available audit records.
 
-\- Preserve evidence of relevant operations.
+- Preserve evidence of relevant operations.
 
-\- Avoid storing passwords or authentication secrets in project documentation.
+- Avoid storing passwords or authentication secrets in project documentation.
 
-\- Clearly distinguish executed tests from documented procedures and simulated scenarios.
+- Clearly distinguish executed tests from documented procedures and simulated scenarios.
 
 
 
-\## 7. Project Scope Statement
+## 7. Project Scope Statement
 
 
 
