@@ -338,7 +338,7 @@ These activities are included in the designed workflow but are not claimed as co
 
 \- Separation of Duties
 
-\- Approval-based access provisioning
+\- Approval-based access provisioning (documented workflow; approval not tested in the lab)
 
 \- Access revocation
 
